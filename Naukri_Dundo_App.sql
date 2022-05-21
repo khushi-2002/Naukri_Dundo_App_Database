@@ -248,41 +248,7 @@ insert into Permission_Status VALUES (2,1,2,'Confirmed');
 insert into Permission_Status VALUES (3,2,2,'Under Review');
 insert into Permission_Status VALUES (4,3,1,'Rejected');
 
--- SELECT QUERIES STATEMENTS
-select * from User_Details;
-select * from Student_Details;
-select * from Education_Details;
-select * from Student_Education;
-select * from Skills;
-select * from Student_Skills;
-select * from Companies;
-select * from Job_Postings;
-select * from Student_Job_Application;
-select * from Consultants;
-select * from Websites;
-select * from Job_Websites;
-select * from Student_Consultant_Appointment;
-select * from Student_Reporters;
-select * from Administrators;
-select * from Permission_Status;
 
-select Consultant_id, Expertise from Consultants;
-select * from Companies where Work_location = 'Pune';
-select * from Permission_status where Reporter_id = 1;
-select * from Websites where Website_name = 'Naukri Apni' and Website_URL = 'www.naukariapni.com';
-select * from Companies where not Work_location = 'Pune';
-select * from User_Details order by User_age;
-select * from Companies order by Founded_year, Work_location;
-select * from User_Details where User_age<45 limit 3; 
-select * from Websites where Website_name Like 'A%';
-select * from Job_Postings where Job_location In ('Agra', 'Chennai') order by Job_posted;
-select * from Companies where Work_location in (select Job_location from Job_Postings);
-select * from User_Details where User_age between 30 And 40;
-select * from User_Details where User_age between 20 and 50 and User_id not in (1,2,3);
-select Job_id as Id, Job_location as Location from Job_Postings;
-select User_name, concat_ws(',',User_id, User_gender, User_age) as Details from User_Details;
-select Job_Postings.Job_id, Websites.Website_id from Job_Postings , Websites where Job_id = Website_id;
-select User_name, User_email, User_age, Student_Careerchoice from Student_Details,User_Details where User_Details.User_id = Student_Details.Student_id;
 
 
 
