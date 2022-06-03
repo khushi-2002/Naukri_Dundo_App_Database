@@ -1,5 +1,5 @@
 # Naukri_Dundo_App_Database (RELATIONAL MODEL)
-Naukari Dundo App Database helps to give an idea of how to make business Database model in the industry and what are the violations, an individual can have
+Naukari Dundo App Database helps to give an idea of how to make business Database model in the industry and what are the violations, an individual can have,
 Understanding Mysql is quite easy and interesting task if u are already familiar with MySQL, YOU ARE AT THE RIGHT PLACE TO TEST YOUR KNOWLEDGE.
 IF YOU ARE NOT THEN YOU CAN REFER SOME RESOURCES WHLE SOLVING QUERIES
 
