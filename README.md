@@ -8,7 +8,8 @@ IF YOU ARE NOT THEN YOU CAN REFER SOME RESOURCES WHLE SOLVING QUERIES
 - DDL: Database Definition Language
 - DML: Database Manipulation Language
 - DCL: Database Control Language
-Here we will deal with DML which modtly based on writing queries.
+
+Here we will deal with DML which mostly based on writing queries.
 
 The database has been created on the below problem Statement--
 
