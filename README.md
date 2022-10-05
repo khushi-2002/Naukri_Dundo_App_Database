@@ -20,3 +20,7 @@ In search of jobs, fresher students passed out of college search various sites, 
 4. Web Sites: Online Consultants for searching jobs.
 5. Student_reporters:- Who enter new sites / consultants that will help other students to search jobs.
 6. Adminstrators:- Who will permit content added by Student_Reporters to be visible to other students (Job Seekers)
+
+Schema:
+
+![image](/Naukri%20Dundo%20App_Design.png)
